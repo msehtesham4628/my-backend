@@ -114,3 +114,4 @@ app.get('/api/user/data', authenticateToken, requireRole('user'), (req: Request,
 app.listen(PORT, () => {
   console.log(`Backend API running on http://localhost:${PORT}`);
 });
+
